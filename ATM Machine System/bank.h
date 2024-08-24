@@ -1,9 +1,9 @@
 #ifndef BANK_H
 #define BANK_H
 
-void checkBalance(int& balance);
+void bank_init(int& balance);
+void checkBalance(const int& balance);
 void depositAmount(int& balance);
 void withdrawBalance(int& balance);
 
-void init(int& balance);
 #endif

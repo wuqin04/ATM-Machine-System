@@ -6,5 +6,5 @@
 int main() {
 	int balance{ 100 };
 	
-	init(balance);
+	bank_init(balance);
 }
